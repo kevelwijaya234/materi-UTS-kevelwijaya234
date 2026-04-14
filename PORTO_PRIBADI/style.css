@@ -1,0 +1,135 @@
+.jumbotron {
+  padding: 8rem 2rem;
+  background: linear-gradient(to top, #3a3efb, #8c28ff) !important;
+  height: 590px;
+}
+
+.jumbotron img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.Contactme,
+.Aboutme {
+  padding-top: 2rem;
+  color: #3a3efb;
+}
+
+#Project {
+  background: linear-gradient(to left, #3a3efb, #8c28ff) !important;
+}
+
+.project,
+.Contact {
+  padding: 2rem;
+}
+
+section {
+  padding: 3rem;
+}
+
+nav {
+  background: white !important;
+}
+
+nav {
+  border-radius: 5px;
+  margin: 15px;
+}
+
+footer {
+  background: linear-gradient(to right, #3a3efb, #7d3afb);
+  color: white;
+  text-align: center;
+  box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.3);
+  padding: 3px 0;
+}
+
+.copyright {
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  background-color: #3a3efb;
+  color: rgba(255, 255, 255, 0.911);
+  transition: all 0.2s ease;
+  border-radius: 5px;
+}
+
+.navbar-brand:hover {
+  background-color: #7d3afb;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.navbar .nav-item .nav-link {
+  color: #4d50fcba;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #3a3efb;
+  transform: translateY(-3px);
+}
+
+.btn-custom-more {
+  background-color: #3a3efb;
+  color: white;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+  border: solid 1.5px white;
+  border-radius: 5px;
+}
+
+.btn-custom-more:hover {
+  background-color: white;
+  color: #3a3efb;
+  transform: translateY(-5px);
+}
+
+.btn-custom-submit {
+  border-radius: 5px;
+  width: 150px;
+  color: white;
+  background-color: #3a3dfbde;
+  transition: all 0.2s ease;
+}
+
+.btn-custom-submit:hover {
+  color: white;
+  background-color: #3a3dfb5c;
+}
+
+.btn-custom-submit:focus {
+  background-color: #3a3dfb !important;
+  color: white !important;
+}
+
+.ilustrasi {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.software {
+  margin-left: 0.5px;
+  border: solid 2px #3a3dfb;
+  border-radius: 10px;
+  height: 70px;
+}
+.software img {
+  margin-right: 1rem;
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+}
+
+.p {
+  text-align: justify;
+}
+
+.card-text {
+  color: #3a3dfb;
+}

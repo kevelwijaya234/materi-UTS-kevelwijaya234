@@ -1,0 +1,114 @@
+/* Custom Styles */
+:root {
+    --primary-color: #0167cd; 
+    --accent-color: #f9f9f9;  
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.text-center{
+    color: #0167cd;
+}
+
+.hero-section {
+    background: linear-gradient(150deg, var(--primary-color), #61d0ff);
+    color: white;
+    padding: 100px 0;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: var(--primary-color); /* Teks menjadi biru agar kontras */
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) ;
+}
+
+.btn-primary:hover {
+    background-color: #0070e0;
+}
+
+/* Custom Styles untuk Kartu Proyek */
+
+/* Menargetkan kartu proyek di dalam section dengan judul 'Proyek Terbaru' */
+section .row .col-md-6 .card {
+    /* Gunakan warna biru utama Anda yang sudah didefinisikan di :root */
+    background-color: var(--primary-color) !important; /* Gunakan !important untuk menimpa gaya default Bootstrap */
+    color: white !important; /* Membuat semua teks di dalam kartu menjadi putih */
+    border: none; /* Menghilangkan border agar terlihat lebih bersih */
+    border-radius: 12px; /* Memberikan sudut yang sedikit lebih melengkung agar modern */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+/* Mengubah warna teks judul di dalam kartu agar tetap kontras */
+section .row .col-md-6 .card .card-title {
+    color: white !important; /* Teks judul putih, bukan biru default */
+    font-weight: 700; /* Membuat judul sedikit lebih tebal */
+}
+
+/* Mengubah warna teks deskripsi di dalam kartu */
+section .row .col-md-6 .card .card-text {
+    color: rgba(255, 255, 255, 0.85) !important; /* Teks deskripsi putih sedikit transparan agar tidak terlalu silau */
+    font-size: 0.95rem; /* Ukuran teks sedikit lebih kecil */
+    line-height: 1.6; /* Menambah jarak antar baris teks agar lebih mudah dibaca */
+}
+
+/* Efek Hover Kustom untuk Kartu Biru */
+section .row .col-md-6 .card:hover {
+    /* Sedikit menggelapkan warna biru saat di-hover untuk memberikan kesan kedalaman */
+    background-color: color-mix(in srgb, var(--primary-color) 90%, black) !important;
+    transform: translateY(-8px); /* Sedikit terangkat ke atas */
+    box-shadow: 0 15px 30px rgba(0, 70, 140, 0.3) !important; /* Bayangan dengan warna senada biru untuk efek melayang */
+}
+
+footer {
+    background-color: #0167cd !important; /* Menggunakan biru #0070e0 */
+    color: #f9f9f9 !important; /* Menggunakan warna off-white untuk teks */
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Garis tipis transparan di atas footer */
+}
+
+footer p {
+    margin-bottom: 0; /* Menghilangkan jarak bawah default pada paragraf */
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* 1. Mengubah teks Keahlian Teknis menjadi putih */
+.badge {
+    background-color: #004a99 !important; /* Biru gelap sesuai keinginanmu */
+    color: #ffffff !important;           /* Teks putih murni */
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    border: none;
+}
+
+/* 2. Mengatur Tombol Kembali ke Beranda */
+.btn-outline-secondary {
+    color: #004a99 !important;           /* Teks awal biru gelap */
+    border: 2px solid #004a99 !important; 
+    background-color: transparent !important;
+    transition: all 0.3s ease;
+}
+
+/* 3. Efek Hover Tombol (Teks menjadi putih) */
+.btn-outline-secondary:hover {
+    background-color: #004a99 !important; /* Latar menjadi biru saat disentuh */
+    color: #ffffff !important;           /* TEKS MENJADI PUTIH saat disentuh */
+    transform: translateY(-2px);          /* Efek sedikit terangkat */
+}

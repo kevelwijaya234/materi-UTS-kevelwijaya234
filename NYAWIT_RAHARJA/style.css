@@ -1,0 +1,92 @@
+/* Custom Styles - Nyawit Raharja */
+:root {
+  --primary-green: #1b4332; /* Hijau Tua Sawit */
+  --accent-yellow: #f4d35e; /* Kuning sesuai mockup */
+  --light-bg: #f8f9fa;
+  --text-dark: #333;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Navigasi */
+.navbar {
+  background-color: var(--primary-green) !important;
+}
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1594913366159-1832ebbee33a?w=1200") no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.btn-custom {
+  background-color: var(--accent-yellow);
+  color: var(--text-dark);
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.3s;
+}
+.btn-custom:hover {
+  background-color: #e9c46a;
+  transform: scale(1.05);
+}
+
+/* Global Section Styling */
+section {
+  padding: 60px 0;
+}
+.section-title {
+  color: var(--primary-green);
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Section Tentang */
+.about-img {
+  border-radius: 50%; /* Membuat gambar bulat sesuai mockup */
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Hasil Kebun (Cards) */
+.card-hasil {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.card-hasil:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Kontak */
+.contact-box {
+  background-color: #e9f5db; /* Hijau muda pucat */
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #2b1d16; /* Cokelat gelap tanah */
+  color: rgba(255, 255, 255, 0.8);
+}
